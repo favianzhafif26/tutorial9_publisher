@@ -9,3 +9,9 @@ Program subscriber dan publisher menggunakan URL yang sama karena keduanya terhu
 ## Running RabbitMQ as message broker
 
 ![image](https://github.com/user-attachments/assets/1cae5ba9-cbeb-46c9-b0e2-f0e972c1901f)
+
+## Sending and processing event
+
+![image](https://github.com/user-attachments/assets/3b6fa417-dcb0-40aa-973b-630e0a94e8c4)
+
+Ketika menjalankan cargo run pada console dengan direktori publisher, console dengan direktori subscriber akan memunculkan 5 data message bertahap-tahap sesuai dengan program.
