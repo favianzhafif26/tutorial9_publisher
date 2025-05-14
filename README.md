@@ -15,3 +15,9 @@ Program subscriber dan publisher menggunakan URL yang sama karena keduanya terhu
 ![image](https://github.com/user-attachments/assets/3b6fa417-dcb0-40aa-973b-630e0a94e8c4)
 
 Ketika menjalankan cargo run pada console dengan direktori publisher, console dengan direktori subscriber akan memunculkan 5 data message bertahap-tahap sesuai dengan program.
+
+## Monitoring chart based on publisher
+
+![image](https://github.com/user-attachments/assets/98d4e4d2-c295-49a5-8bdd-82767d9e66e4)
+
+Munculnya spike-spike pada chart kedua (dibawah) dikarena pengiriman request cargo run berkali-kali pada publisher yang menyebabkan spiking (naiknya frekuensi) pada message rates yang diterima oleh subscriber
