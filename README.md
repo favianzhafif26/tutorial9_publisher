@@ -1,0 +1,7 @@
+# Module 9
+
+## a. How much data your publisher program will send to the message broker in one run?
+Dalam satu kali eksekusi, publisher mengirimkan sebanyak 5 data ke message broker. Hal ini terlihat pada fungsi `main` di file `main.rs`, di mana fungsi `publish_event` dipanggil lima kali dengan isi data yang berbeda-beda.
+
+## b. The url of: “`amqp://guest:guest@localhost:5672`” is the same as in the subscriber program, what does it mean?
+Program subscriber dan publisher menggunakan URL yang sama karena keduanya terhubung ke server AMQP yang sama. Struktur URL tersebut memiliki arti yang sama seperti pada program subscriber: bagian pertama `guest` adalah nama pengguna untuk login ke message broker, `guest` kedua adalah kata sandi dari pengguna tersebut, dan `localhost:5672` menunjukkan alamat server serta port standar yang digunakan oleh protokol AMQP dalam hal ini RabbitMQ.
